@@ -1,0 +1,15 @@
+﻿<Window x:Class="MurmanRybApp.Windows.AdministratorMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MurmanRybApp.Windows"
+        mc:Ignorable="d"
+        Title="AdministratorMenu" Height="450" Width="800">
+    <Grid>
+        <Button Name="ExtiButton" Width="100" Height="30" Content="Выход" Margin="670,23,23.6,367" Click="ExtiButton_Click"/>
+        <Button Name="UserListButton" Height="30" Content="Список пользователей" Click="UserListButton_Click" Margin="333,195,328.6,195"/>
+        <Button Name="StoreManagementButton" Height="30" Content="Управление складом" Click="StoreManagementButton_Click" Margin="333,262,328.6,128"/>
+
+    </Grid>
+</Window>
